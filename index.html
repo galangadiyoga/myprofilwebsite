@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/icon/partner.png" alt="logo" class="logo-img"/>
+            <h1 class="logo-title">Galangadiyoga</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:galang890ay@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram ()">FOLLOW ME</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">hallo, galang adi yoga here!</p>
+            <p class="description">i am engginer infomatic in village</p>
+            <img src="assets/foto/profilepic.jpeg" alt="foto profil" class="img-foto"/>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="tentang">
+            <p class="title">saya beast progammer</p>
+            <p class="description">belajar aja dulu nanti pasti jago</p>
+            <div class="nt-10">
+                <button class="btn-cta" onclick="redirWhatsapp ()">kerjasama kuy</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <img src="assets/icon/24-hours.png" alt="icon1" class="icon"/>
+                    <p class="card-title">saya suka kamu</p>
+                    <p class="card-description">kamu calon inspirasiku</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/icon/hot-deal.png" alt="icon2" class="icon"/>
+                    <p class="card-title">saya suka kamu</p>
+                    <p class="card-description">kamu calon inspirasiku</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/icon/rating.png" alt="icon3" class="icon"/>
+                    <p class="card-title">saya suka kamu</p>
+                    <p class="card-description">kamu calon inspirasiku</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p> &copy; galangadiyoga website 2022 </p>
+    </footer>
+    <script>
+        function redirInstagram () {
+            window.location.href = "http://instagram.com/galangadyo"
+        }
+        function redirWhatsapp () {
+            window.location.href = "http://wa.me/+628315235"
+        }
+    </script>
+</body>
+</html>
